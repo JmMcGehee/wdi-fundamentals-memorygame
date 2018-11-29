@@ -22,6 +22,10 @@ font-size: 45px;
 margin: 0;
 }
 
+h6 {
+	margin: 10px 0 0 0; 
+}
+
 h2 {font-family: "Raleway", sans-serif;
 	font-weight: 600;
 	color: #OD2C40;
@@ -41,9 +45,14 @@ h3, h6 {font-family: "Raleway", sans-serif;
 	font-weight: 600;
 	font-size: 18px;
 	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
 } 
 
 /*Why is ins-game not turning orange?*/
+
+a:hover {
+	border-color: white;
+}
 
 main {
 	width: 850px;
@@ -85,5 +94,39 @@ nav {
 }
 
 .about_me {
-	text-decoration: underline;
+	text-decoration: none;
+	color: white;
 } 
+
+footer {
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.copyright {
+	font-family: "Raleway", sans-serif;
+	float: left;
+}
+
+.message {
+	font-family: "Raleway", sans-serif;
+	float: right;
+}
+
+.name {
+	color; #F15B31;
+	font-weight: 700;
+}
